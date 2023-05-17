@@ -7,7 +7,7 @@
     <!-- <TheWelcome /> -->
     <nav class=" pl-20  pr-20 shadow flex justify-between items-center pb-3 ">
       <div class=" inline-flex  space-x-3  ">
-        <a  href="/" > <img src="../icons/pocketad.io_logo.jpeg" width="70" height="5"> </a>
+        <a  href="/" > <img src="../icons/pocketad.io_logo.jpeg" style="width: 87px;"> </a>
       </div>
       <div >
         <ul class=" flex items-center  mt-3  ">

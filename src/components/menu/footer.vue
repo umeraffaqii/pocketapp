@@ -3,11 +3,11 @@
 
 <template>
 <RouterView>
-<footer class="w-full bg-gray-400  pl-20 pr-20">
+<footer class="w-full bg-gray-400  ">
     
     <section class="   ">
 
-        <article class="flex justify-between items-center w-full  pt-40">
+        <article class="flex justify-between items-center w-full  pt-40 pl-20 pr-20">
             <div  class="  w-1/3 text-white  ">
                 <p class=" text-xs" >Keep in touch  </p>
 
@@ -29,8 +29,8 @@
         </article>
         <div class=" relative bg-gradient-to-br from-inherit  ">
         
-        <img src="../icons/gradientfooter.png" alt="" class="ml-32  w-[900px] mx-auto text-center mb-0 h-[270px] absolute mix-blend-overlay bg-opacity-80" >
-        <article class="grid grid-cols-11  ">
+        <img src="../icons/gradientfooter.png" alt="" class="  w-[900px] mx-auto text-center mb-0 h-[270px] absolute mix-blend-overlay bg-opacity-80" style="background-color: white;top: -44px;width:100%">
+        <article class="grid grid-cols-11 pl-20 pr-20 ">
 
                 
             <div class=" col-span-2 border-gray-500  text-white text-[24px] ml-4 font-semibold relative border-r-[1px] border-b-[1px]">
@@ -75,7 +75,7 @@
             
         </article>
 
-            <ul class="flex items-center  mt-3 pb-10">
+            <ul class="flex items-center  mt-3 pb-10 pl-20 pr-20">
 
                 <li> <button class="rounded-full  font-bold text-[10px]  py-1 outline outline-1  inline-flex px-1">
                 ENG <img src="../new_incons/down-arrow-svgrepo-com.png" width="10" class="mt-1 ml-1 " >
