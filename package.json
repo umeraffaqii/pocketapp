@@ -8,10 +8,10 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "generateIcons":" fantasticon icons-source -o icons-dist"
-
+    "generateIcons": " fantasticon icons-source -o icons-dist"
   },
   "dependencies": {
+    "@aws-amplify/cli": "^12.0.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
