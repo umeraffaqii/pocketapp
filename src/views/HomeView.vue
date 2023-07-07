@@ -1,27 +1,35 @@
 <script setup>
-
-import HomeLanding from '../components/Home/HomeLanding.vue'
 import Nav from "../components/menu/Nav.vue"
-import Homeexperience from '../components/Home/Homeexperience.vue'
-import HomeThirdPage from "../components/Home/HomeThirdPage.vue"
-import HomeBlack from "../components/Home/HomeBlack.vue" 
+
+import homeSecond from "../components/Home/homeSecond.vue";
+import homeThird from "../components/Home/homeThird.vue";
+import homeForth from "../components/Home/homeForth.vue";
 import Footer from "../components/menu/footer.vue"
 </script>
 
 <template>
-  <div   class="myFont">
-  <Nav/>
-  <HomeLanding/>
-  <HomeThirdPage/>
-  <Homeexperience/>
-  <HomeBlack/>
-  <Footer/>
-</div>
+
+  <main class=" sm:text-center myFont">
+      <Nav/>
+      <homeSecond/>
+      <homeThird/>
+      <homeForth/>
+      <Footer/>
+  </main>
+  
 </template>
+
+<!-- <style>
+font-face {
+font-family: myFont;
+ 
+    src: href="https://fonts.cdnfonts.com/css/avenir";
+}
+</style> -->
+
 <style>
 font-face {
  font-family: myFont;
     src: url('../components/avenir_ffont/AvenirLTStd-Roman.otf');
 }
 </style>
-
