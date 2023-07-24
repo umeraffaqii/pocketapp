@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'slick-carousel/slick/slick.css'; // Import the base Slick Slider CSS
+import 'slick-carousel/slick/slick-theme.css'; // Import the theme CSS (optional)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

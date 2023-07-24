@@ -1,0 +1,83 @@
+.about_2ndsection{
+background-color:#2A2A2A;
+}
+.about_2ndsec_data{
+max-width: 1280px;
+width: 100%;
+margin: 0px auto;
+padding: 30px 60px;
+box-sizing: border-box;
+
+}
+.about_explanaation_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+.about_explanation_heding{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+}
+.about_explanation_heding h6{
+    width: 45%;
+}
+.about_explanation_heding img{
+max-width: 100px;
+width: 50%;
+}
+.about_explanation_para{
+    width: 35%; 
+}
+.about_explanation_para p{
+font-weight: 700;
+font-size: 14px;
+border-top: 1px solid #AEAEAE;
+padding-top: 10px;
+color: white;
+}
+.about_explanation_heding h6{
+    padding-top: 10px;
+    font-weight: 700;
+font-size: 18px;
+color: white;
+}
+.about_explanation_heding h6 span{
+    font-weight: 700;
+    font-size: 12px;
+    padding-right: 10px;
+    color: white;
+}
+
+@media only screen and (max-width: 791px){
+    .about_2ndsec_data{
+        
+        padding: 30px 30px;
+        
+        }
+        .about_explanaation_div{
+            flex-direction: column;
+        }
+        .about_explanation_heding{
+            flex-direction: column-reverse;
+            width: 100%;
+        }
+        .about_explanation_heding h6{
+            width: 100%;
+            font-size: 24px;
+        }
+        .about_explanation_heding img {
+            max-width: 150px;
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        .about_explanation_para{
+            width: 100%;
+        }
+}
+@media only screen and (max-width: 420px){
+
+   
+}

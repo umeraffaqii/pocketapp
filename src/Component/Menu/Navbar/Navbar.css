@@ -1,0 +1,184 @@
+.nabvabr_main{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0px 50px 0px 40px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar_sec{
+   position: fixed;
+   z-index: 2;
+   background-color: white;
+   width: 100%;
+   top: 0;
+  
+}
+.logo_div {
+width: 150px;
+/* height: 120px; */
+margin-top: -30px;
+margin-bottom: -30px;
+}
+.logo_div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.pages_ref{
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
+    align-items: center;
+
+   
+}
+.pages_names_link{
+    padding: 0px 40px 0px 20px;
+}
+.a_tag_nav{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    padding-right: 15px;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+.a_tag_nav1{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    padding-right: 15px;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+.nav_btn{
+    display: flex;
+}
+.nav_btn P:first-child{
+background-color: black;
+border-radius: 20px;
+padding: 10px 13px;
+font-size: 11px;
+font-weight: 600;
+color: white;
+border: 1px solid black;
+margin-right: 10px;
+cursor: pointer;
+margin-bottom: 0px;
+}
+.nav_btn P:last-child{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 13px;
+    font-size: 11px;
+    font-weight: 600;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 0px;
+    }
+    .mob_toogle{
+        display: none;
+    }
+    @media only screen and (max-width: 791px){
+        .pages_ref{
+            display: none   ;
+        }
+        .mob_toogle{
+            display: block;
+        border-radius: 60px;     
+            box-shadow: 0 0 2px #64748b;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nabvabr_main{
+            padding: 0px 20px 0px 0px;
+        }
+        .mob_pages_name{
+            display: flex;
+            flex-direction: column;
+            padding: 10px 0px;
+            border-bottom: 2px solid #93937a;
+        }
+        .mob_pages_name a{
+font-size: 25px;
+font-weight: 700;
+text-decoration: none;
+color: white;
+margin-bottom: 0px;
+padding: 10px 0px;
+
+        }
+        .social_icon_nav{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            padding: 20px 0px;
+        }
+        .social_icon_nav img {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+        }
+        .nav_btn_Ref{
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+        }
+        .nav_other p {
+            color: white;
+            font-size: 14px;
+            margin-bottom: 0px;
+            padding-bottom: 10px;
+        }
+        .nav_btn1{
+            padding: 10px 0px 10px 0px;
+        }
+        .nav_btn1 P{
+            background-color: white;
+            border-radius: 20px;
+            padding: 10px 13px;
+            font-size: 11px;
+            font-weight: 600;
+            color: black;
+            border: 1px solid black;
+            cursor: pointer;
+            }
+    }
+    .modal{
+        --bs-modal-margin: 0 !important;
+        width: 100%;
+             --bs-modal-width: 100% !important;
+    }
+    .modal-content{
+       min-height: 100vh;
+        width: 100vw !important;
+        background: black !important;
+        border: none !important;
+        border-radius: 0px !important;
+        box-shadow: none !important;
+        box-sizing: border-box;
+        padding: 10px 40px;
+    }
+    .close_btn{
+        border-radius: 60px;     
+       display: flex;
+       align-items: center;
+       justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: yellow;
+            margin-left: auto;
+            /* padding: 30px 40px; */
+        
+    }
+    .close_btn img{ 
+      width: 20px;
+      height: 20px;
+    }
+    

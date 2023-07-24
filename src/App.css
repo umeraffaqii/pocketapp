@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+* {
+  font-family: 'Avenir' !important;
+  font-style: normal;
+}
+ body{
+  margin: 0px;
+  font-family: 'Avenir' !important;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+ }
+
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../src/Component/assets/Avenir-Font/avenir_ff/AvenirLTStd-Black.otf') format('opentype'),
+  url('../src/Component/assets/Avenir-Font/avenir_ff/AvenirLTStd-Black.otf')  format('truetype'),
+  url('../src/Component/assets/Avenir-Font/avenir_ff/AvenirLTStd-Black.otf')   format('woff');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slick-prev, .slick-next{
+display: none !important;
+}
+.slick-prev:before, .slick-next:before{
+  display: none !important;
+}
+.active_class{
+  text-decoration: underline !important;
+}
+p{
+  font-family: 'Avenir' !important;
+}
+h1{
+  font-family: 'Avenir' !important;
+}
+h2{
+  font-family: 'Avenir' !important;
+}
+h3{
+  font-family: 'Avenir' !important;
+}
+h4{
+  font-family: 'Avenir' !important;
+}
+h5{
+  font-family: 'Avenir' !important;
+}
+h6{
+  font-family: 'Avenir' !important;
+}
+span{
+  font-family: 'Avenir' !important;
+}
+div{
+  font-family: 'Avenir' !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

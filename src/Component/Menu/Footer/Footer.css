@@ -1,0 +1,277 @@
+
+.footer_setion{
+    background-image: url('../../assets/images/PocketAd.io_Gradient_Footer-f0de9a14.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+ 
+}
+.footer_main{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+    box-sizing: border-box;
+       padding: 30px 60px 0px 60px;
+    
+}
+.text_Sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.toch_text{
+width: 80%;
+color: white    ;
+}
+.toch_text h6{
+font-size: 12px;
+line-height: 16px;
+}
+.toch_text h1{
+font-size: 36px;
+font-weight: 700;
+display: flex;
+flex-direction: column;
+margin: 30px 0px;
+
+
+}
+.toch_text p{
+
+width: max-content;
+display: flex;
+align-items: center;
+}
+.f_span1{
+    color: black;
+    background-color: white;
+border-radius: 30px;
+padding: 8px  15px;
+height: 40px;
+display: flex;
+align-items: center;
+
+}
+.f_span2{
+    color: black;
+    background-color: white;
+border-radius: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 40px;
+width: 40px;
+
+}
+.f_span2 img{
+  width: 50%;
+  height: 50%;
+}
+.social_icon_footer{
+width: 18%;
+display: flex;
+flex-direction: column;
+height: 100%;
+justify-content: space-between;
+align-items: flex-end;
+}
+.social_icon_footer a{
+
+    margin: 8px 0px;
+    width: 40px;
+}
+.social_icon_footer a img{
+width: 100%;
+height: 100%;
+ 
+}
+.foot_grid{
+    display: flex;
+    justify-content: space-between;
+ 
+    border-bottom:1px solid #93937a ;
+    margin-top:70px ;
+    
+  
+}
+.cols_main{
+    display: flex;
+    width: 80%;
+ 
+    
+
+}
+.cols_main h5{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: end;
+    height: 100%;
+    margin-bottom: 0px;
+}
+.col1 h6{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+}
+.col1 div{
+    padding-top: 20px;
+}
+.col1 div p{
+font-size: 10px;
+line-height:14px;
+margin-bottom: 0px;
+font-weight: 600;
+padding-top: 5px;
+
+}
+.col1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+     padding: 0px 10px 30px 10px;
+
+}
+.col1:last-child {
+    border-right: none !important;
+  }
+  .col1 {
+    border-right: 1px solid #93937a;
+  }
+  .col1:first-child{
+
+  padding: 0px 10px 30px 0px;
+  }
+  .col_img{
+
+    display: flex;
+    align-items: end;
+ 
+  }
+  .col_img img{
+  
+ width: 50px;
+ height: 50%;
+  }
+  .bottom_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding-top: 20px;
+  }
+  .left_boottom{
+display: flex;
+align-items: center;
+  }
+
+  .left_boottom p {
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .left_boottom p img{
+    margin-left: 10px;
+  }
+  .left_boottom h6{
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .right_bottom p{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .mob_data_text{
+    display: none;
+  }
+  .left_boottom div {
+    display: flex;
+  }
+  @media only screen and (max-width: 791px){
+    .text_Sec{
+        flex-direction: column;
+    }
+    .toch_text{
+        width: 100%;
+
+    }
+    .social_icon_footer{
+
+        width: 100%;
+        align-items: start;
+    }
+    .mob_data_text{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .mob_data_text p{
+font-size: 36;
+
+color: white;
+word-spacing: 30px;
+
+    }
+    .mob_data_text img{
+width: 40px;
+height: 40px;
+    }
+    .foot_grid{
+        display: none;
+    }
+    .social_icon_footer{
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+    }
+    .footer_setion{
+        /* min-height: 100vh; */
+    }
+    .toch_text h1{
+        font-size: 45px;
+        margin: 40px 0px;
+    }
+    .mob_data_text{
+        margin: 40px 0px;
+    }
+    .bottom_footer{
+        flex-direction: column;
+        align-items: start;
+    }
+    .left_boottom{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-between;
+      
+    }
+    .left_boottom p {
+        margin-bottom: 0px;
+    }
+    .right_bottom{
+        width: 100%;
+        text-align: right;
+        margin: 20px 0px;
+    }
+    .left_boottom h6{
+padding-left: 0px;
+padding-top: 10px;
+margin-bottom: 0px;
+margin-top: 0px;
+    }
+    .left_boottom div {
+        display: flex;
+        flex-direction: column;
+      }
+.footer_main{
+    padding: 30px 30px 0px 30px;
+  }
+}

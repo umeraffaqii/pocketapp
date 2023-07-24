@@ -1,0 +1,186 @@
+.home_sec2{
+background-image: url('../../../assets/images/pocketad.io_home_image1.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.home_sec2_data{
+    max-width: 1280px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px 60px;
+
+}
+.sec2_text1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec2_text1_para{
+    width: 30%;
+}
+.sec2_text1_para p {
+    color: white;
+    font-size: 11px;
+    max-width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.sec2_text1 h6{
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 80px;
+    color: white;
+    letter-spacing: .025em; 
+    
+}
+.sec2_text2{
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.sec2_text2 p{
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 80px;
+    color: white;
+    letter-spacing: .025em; 
+}
+.sec2_text3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+.sec2_text4{
+    display: flex;
+   margin-top: 40px; 
+}
+.box_dev1{
+    display: flex;
+    align-items: center;
+    
+}
+.box_dev1 h4{
+margin-bottom: 0px;
+background-color: black;
+height: 40px;
+border-radius: 20px;
+padding: 6px 20px;
+font-size: 14px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+
+}
+.box_dev1 img{
+background-color: black;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 60px;
+width: 40px;
+padding: 0px 10px ;
+color: white;
+}
+.sec2_text3 p{
+    width: 30%;
+    
+}
+.box_dev1{
+    width: 50%;
+}
+.fields_of_expertise{
+    width: 20%;
+    border-right: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 120px;
+    color: white;
+    font-weight: 700;
+}
+.fields_of_expertise:last-child{
+    border-right: none !important;
+}
+@media only screen and (max-width: 791px){
+    .sec2_text1{
+        flex-direction: column  ;
+        padding: 0px 30px;
+    }
+    .sec2_text1 h6{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .sec2_text1_para{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .sec2_text1_para p{
+        max-width: 80%;
+        justify-content: flex-start;
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    .sec2_text11_p {
+        color: black;
+        text-align: left;
+        font-size: 16px;
+        padding: 60px 20px;
+    }
+    .home_sec2_data{
+        padding: 20px 30px;
+    }
+    .box_dev1{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .mob_view_diff{
+        border: 1px solid white;
+     
+
+    }
+   
+ 
+    .mob_view_diff{
+        padding: 20px;
+    }
+    .mob_view_diff h3{
+color: white;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 90px;
+    }
+    .mob_view_diff span{
+padding: 10px 10px;
+background-color: white;
+border-radius: 30px;
+
+    }
+    .mob_view_diff p{
+        font-size: 16px;
+        line-height: 26px;
+        color: white;
+        margin-top: 40px;
+    }
+    .home_sec2{
+        background-image: url('../../../assets/images/stone.png');
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+}
+@media only screen and (max-width: 399px){
+    .sec2_text1{
+        flex-direction: column  ;
+    }
+    .sec2_text1 h6{
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
