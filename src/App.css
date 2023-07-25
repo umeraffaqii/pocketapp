@@ -1,5 +1,5 @@
 * {
-  font-family: 'Avenir' !important;
+  /* font-family: 'Avenir' !important; */
   font-style: normal;
 }
  body{
@@ -27,7 +27,7 @@ display: none !important;
 .active_class{
   text-decoration: underline !important;
 }
-p{
+/* p{
   font-family: 'Avenir' !important;
 }
 h1{
@@ -53,7 +53,7 @@ span{
 }
 div{
   font-family: 'Avenir' !important;
-}
+} */
 
 
 
