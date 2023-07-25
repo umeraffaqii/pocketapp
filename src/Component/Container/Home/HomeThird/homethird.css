@@ -125,10 +125,15 @@ width: 100%;
 .parallet_imgs img{
     margin: 30px 0px;
 }
+.doing_section span img{
+    width: 20px;
+    height: 20px;
+    padding-right: 0px;
+    }
 .doing_section img{
-width: 40px;
-height: 4 0px;
-padding-right: 10px;
+width: 45px;
+height: 40px;
+padding-right: 0px;
 }
 .doing_section h6{
 padding: 20px 0px;
