@@ -116,13 +116,14 @@ const Footer = () => {
           <div className="left_boottom">
           <p> <span>ENG</span> <img src= {angle} alt="pic" /></p>
       <div>
-      <h6>term & condition</h6>
-        <h6>privacy</h6>
-        <h6>cookies Policy</h6>
+      <h6>Terms and conditions</h6>
+        <h6>Privacy</h6>
+        <h6>Cookies Policy</h6>
       </div>
  </div>
           <div className="right_bottom">
           <p>2023-All rights reserved</p>
+          <h6>2007-2023-All rights reserved</h6>
             
           </div>
 

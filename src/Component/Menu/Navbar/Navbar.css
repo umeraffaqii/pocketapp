@@ -2,10 +2,12 @@
     display: flex;
     box-sizing: border-box;
     padding: 0px 50px 0px 40px;
-    width: 100%;
+ 
     justify-content: space-between;
     align-items: center;
-
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
 }
 .navbar_sec{
    position: fixed;

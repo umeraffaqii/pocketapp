@@ -1,18 +1,30 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect ,useRef} from "react";
 import "../AboutTeam/aboutteam.css";
 import Slider from "react-slick";
 import { teamdata } from "../Aboutdata";
+import arorw from '../../../assets/images/svgexport-20.svg'
 const Aboutteam = () => {
+  const sliderRef = useRef(null);
+  const totalSlides = teamdata.length;
+  const [currentSlide, setCurrentSlide] = useState(0);
   const settings = {
-    dots: true,
+    // Your settings for the slider here
+    dots: false,
     infinite: true,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
-    speed: 2000,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
+    afterChange: (current) => setCurrentSlide(current),
   };
+
+  const handleSliderClick = (direction) => {
+    if (direction === 'left') {
+      sliderRef.current.slickPrev();
+    } else if (direction === 'right') {
+      sliderRef.current.slickNext();
+    }
+  };
+  
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > 791 ? true : false);
   const updateDimensions = () => {
     setIsDesktop(window.innerWidth > 791 ? true : false);
@@ -54,22 +66,22 @@ const Aboutteam = () => {
 </>
             ):(
 <>
-<Slider {...settings}>
+<div>
+      <Slider ref={sliderRef} {...settings}>
+        {teamdata.map((data) => (
+          <div key={data.headig} className="team_intro">
+            <h6>{data.headig}</h6>
+            <p dangerouslySetInnerHTML={{ __html: data.para }}></p>
+          </div>
+        ))}
+      </Slider>
+      <div className="slider_controls">
+        <button onClick={() => handleSliderClick('left')}><img src={arorw} alt="arrow" className="first_arrow"/></button>
+        <span>{`${currentSlide + 1} / ${totalSlides}`}</span>
+        <button onClick={() => handleSliderClick('right')}><img src={arorw} alt="arrow" /></button>
+      </div>
+    </div>
 
-{teamdata.map((data) => {
-              return (
-                <>
-                  <div className="team_intro">
-                    <h6>{data.headig}</h6>
-                    <p dangerouslySetInnerHTML={{ __html: data.para }}></p>
-                   
-                  </div>
-                </>
-              );
-            })}
-
-</Slider>
-  
 </>
             )
           }

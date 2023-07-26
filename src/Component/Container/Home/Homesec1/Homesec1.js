@@ -16,11 +16,20 @@ const Homesec1 = () => {
     <>
       <div className="home_sec1_main">
         <div className="homesec1_data">
+        {
+        <>
+       <div className="main_div_of_website">
+       <div >
           {isDesktop ? <h5>Business - challengers through quality data.</h5> : <h5>Technology - leaders through cutting edge solutions.</h5>}
           <h6>30+ years empowering business.</h6>
+          </div>
           <div className="arrow_div">
             <img src={ararow} alt="img" />
           </div>
+       </div>
+        </>
+        }
+          
           <div className="homesec1_2nd_text">
           <div style={{width:isDesktop?"20%":"100%",} } className="mob_sec_view">
           <h4>How we think</h4>

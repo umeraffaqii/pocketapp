@@ -195,9 +195,25 @@ align-items: center;
   .left_boottom div {
     display: flex;
   }
+  .right_bottom h6 {
+    display: none;
+  }
   @media only screen and (max-width: 791px){
     .text_Sec{
         flex-direction: column;
+    }
+    .right_bottom p{
+        display: none;
+    }
+    .right_bottom h6 {
+        display: flex;
+        justify-content: end;
+    max-width: 200px;
+        text-align: left;
+        margin-left: auto;
+        color: #93937a;
+        padding-left: 30px;
+     
     }
     .toch_text{
         width: 100%;
@@ -270,6 +286,7 @@ margin-top: 0px;
     .left_boottom div {
         display: flex;
         flex-direction: column;
+        width: 60%;
       }
 .footer_main{
     padding: 30px 30px 0px 30px;

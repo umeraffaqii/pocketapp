@@ -18,14 +18,18 @@ const Abouttop = () => {
     <div className='about_topsec_data'>
      {
       isDesktop?(
+      <>
+      <p style={{color:"black"}}>about us</p>
         <h6 className='about_para'>We engage disruptive innovation
 in the sapce where business
 goals meet customer delight. </h6>
+      </>
     
       ):(
         <>
+        <p  style={{color:"black"}}>about us</p>
         <h6 className='about_para'>building </h6>
-        <h6 className='about_para' style={{display:"flex"}}><span><img src ={yes} alt="img" style={{width:"30px",height:"30px"}}/></span> togethe</h6>
+        <h6 className='about_para' style={{display:"flex"}}><span><img src ={yes} alt="img" style={{width:"30px",height:"40px"}}/></span> togethe</h6>
        {
         !isDesktop && (
           <p className='second_para_about'> We engage disruptive innovation in the space where business goals meet customer delight.</p>

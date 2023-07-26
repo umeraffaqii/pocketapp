@@ -3,6 +3,41 @@
     box-sizing:border-box;
     overflow-x:hidden;
 }
+.slider_controls{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #D8D8D8;
+    align-items: center;
+  
+
+}
+.slider_controls1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+  
+
+}
+.slider_controls button{
+    border-radius: 120px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 0px 10px;
+}
+.slider_controls1 button{
+    border-radius: 120px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 0px 10px;
+}
+.first_arrow {
+    transform: rotate(180deg);
+  }
 .slick-next{
     display: none !important;
 }

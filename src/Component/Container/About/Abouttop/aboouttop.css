@@ -12,11 +12,11 @@
 
 }
 .about_para{
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight:700;
    
-    max-width: 500px;
-word-spacing: 0.25rem;
+    max-width: 650px;
+
 }
 .about_top_img_sec{
     display: flex;
@@ -63,13 +63,19 @@ border-radius: 800px;
     .about_topsec_data{
       
         padding: 30px 30px;
-
+    
+        background-color: #F5F5F5;
     
     }
+   
+    
     .about_para{
         font-size: 23vw;
         font-weight: 600;
-      
+        background-image: url('../../../assets/about-img/lines.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
         
     }
     .about_top_img_sec{
@@ -98,8 +104,13 @@ border-radius: 800px;
     }
     .about_2nd_img{
 border-radius: 120px;
-margin-right: -120px;
+margin-right: -160px;
 
+    }
+    .about_top_section{
+        margin-top: 85px !important;
+        box-sizing: border-box;
+        overflow-x: hidden !important;
     }
 }
 @media only screen and (max-width: 420px){

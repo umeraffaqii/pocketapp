@@ -27,7 +27,7 @@ const Navbar = () => {
     return (
         <>
             <div className="navbar_sec">
-                <div className="nabvabr_main">
+                <div className="nabvabr_main" style={{background:location.pathname === "/about"?"#F5F5F5":"white"}}>
                     <div className="logo_div">
                        <Link to="/"><img src={logo1} alt="" /></Link> 
                     </div>
