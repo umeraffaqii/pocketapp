@@ -207,12 +207,12 @@ align-items: center;
     }
     .right_bottom h6 {
         display: flex;
-        justify-content: end;
-    max-width: 200px;
+        justify-content: start;
+    /* max-width: 200px; */
         text-align: left;
-        margin-left: auto;
+        /* margin-left: auto; */
         color: #93937a;
-        padding-left: 30px;
+        /* padding-left: 30px; */
      
     }
     .toch_text{
@@ -267,14 +267,15 @@ height: 40px;
         width: 100%;
         align-items: flex-start;
         justify-content: space-between;
+        flex-direction: column;
       
     }
     .left_boottom p {
-        margin-bottom: 0px;
+        margin-bottom: 15px;
     }
     .right_bottom{
         width: 100%;
-        text-align: right;
+        text-align: left;
         margin: 20px 0px;
     }
     .left_boottom h6{

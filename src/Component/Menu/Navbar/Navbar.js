@@ -22,12 +22,19 @@ const Navbar = () => {
 
     const location = useLocation();
    
-   
+    const [isDesktop, setIsDesktop] = useState(window.innerWidth > 791 ? true : false);
+  const updateDimensions = () => {
+    setIsDesktop(window.innerWidth > 791 ? true : false);
+  };
+  useEffect(() => {
+    window.addEventListener("resize", updateDimensions);
+    return () => window.removeEventListener("resize", updateDimensions);
+  }, [isDesktop]);
 
     return (
         <>
             <div className="navbar_sec">
-                <div className="nabvabr_main" style={{background:location.pathname === "/about"?"#F5F5F5":"white"}}>
+                <div className="nabvabr_main" style={{background:location.pathname === "/about" && !isDesktop ?"#F5F5F5":"white"}}>
                     <div className="logo_div">
                        <Link to="/"><img src={logo1} alt="" /></Link> 
                     </div>

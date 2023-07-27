@@ -13,8 +13,8 @@
 }
 .about_para{
     font-size: 40px;
-    font-weight:700;
-   
+    font-weight:800;
+line-height: 39px;
     max-width: 650px;
 
 }
@@ -42,6 +42,7 @@ border-radius: 800px;
 }
 .about_detail_para {
     display: flex;
+    margin: 60px 0px;
     
 }
 .about_detail_para h6{
@@ -76,6 +77,7 @@ border-radius: 800px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        line-height: 100%;
         
     }
     .about_top_img_sec{
