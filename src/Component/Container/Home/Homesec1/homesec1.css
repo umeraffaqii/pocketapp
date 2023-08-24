@@ -2,7 +2,7 @@
     width: 100%;
 }
 .main_div_of_website{
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     padding-bottom: 120px;
@@ -14,15 +14,16 @@
     box-sizing: border-box;
     max-width: 1280px;
     margin:0px auto ;
-     margin-top: 140px;
+     margin-top: 110px;
      padding: 0px 60px;
+     overflow-x: hidden;
 }
 .homesec1_data h5 {
-font-size: 40px;
+font-size: 46px;
 font-weight: 700;
-max-width: 500px;
+max-width: 520px;
 margin-bottom: 0px ;
-line-height: 39px;
+line-height: 40px;
 
 
 }
@@ -36,7 +37,7 @@ border-bottom: 0px;
     width: max-content;
     border-radius: 20px;
     padding: 10px 2px;
-    margin: 90px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .arrow_div img{
    height:50px;
@@ -97,9 +98,39 @@ border-radius: 60px;
 width: 40px;
 padding: 0px 10px ;
 }
+.newimg_add{
+    max-width: 600px;
+    margin: 0px;
+    margin-left: auto;
+    width: 100%;
+    height: 220px;
+   
+}
+.newimg_add img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 120px;
+}
 
 @media only screen and (max-width: 791px){
-    .homesec1_data{
+
+    .newimg_add{
+        max-width: 600px;
+        margin: 0px;
+        margin-left: auto;
+        width: 100%;
+        height: 150px;
+        margin-right: -70px;
+       
+    }
+    .newimg_add img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 40px;
+    }
+        .homesec1_data{
      
          padding: 0px 30px;
     }

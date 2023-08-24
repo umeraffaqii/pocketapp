@@ -3,6 +3,8 @@ import "../Homesec1/homesec1.css";
 import ararow from "../../../assets/images/svgexport-18.svg";
 import star from '../../../assets/about-img/svgexport-34.svg'
 import rightarr from '../../../assets/images/svgexport-20.svg'
+import newadd from '../../../assets/images/newadd.jpg'
+import yes from '../../../assets/images/yes.png'
 const Homesec1 = () => {
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > 791 ? true : false);
   const updateDimensions = () => {
@@ -20,8 +22,11 @@ const Homesec1 = () => {
         <>
        <div className="main_div_of_website">
        <div >
-          {isDesktop ? <h5>Business - challengers through quality data.</h5> : <h5>Technology - leaders through cutting edge solutions.</h5>}
+          {isDesktop ? <h5>Business <span><img src ={yes} alt="img" style={{width:"30px",height:"60px"}}/></span> challengers through quality data.</h5> : <h5>Technology - leaders through cutting edge solutions.</h5>}
           <h6>30+ years empowering business.</h6>
+          </div>
+          <div className="newimg_add">
+          <img src={newadd} alt="img" />
           </div>
           <div className="arrow_div">
             <img src={ararow} alt="img" />
