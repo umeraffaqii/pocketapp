@@ -25,12 +25,16 @@ const Homesec1 = () => {
           {isDesktop ? <h5>Business <span><img src ={yes} alt="img" style={{width:"30px",height:"60px"}}/></span> challengers through quality data.</h5> : <h5>Technology - leaders through cutting edge solutions.</h5>}
           <h6>30+ years empowering business.</h6>
           </div>
-          <div className="newimg_add">
-          <img src={newadd} alt="img" />
-          </div>
-          <div className="arrow_div">
+          <div className='about_top_img_sec1'>
+<div className="arrow_div">
             <img src={ararow} alt="img" />
           </div>
+          <div className='about_img'>
+          <img src={newadd} alt="yes"/>
+
+          </div>
+
+</div>
        </div>
         </>
         }
