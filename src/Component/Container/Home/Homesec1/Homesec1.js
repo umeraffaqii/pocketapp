@@ -64,6 +64,8 @@ const Homesec1 = () => {
 
         </div>
       </div>
+    
+      
     </>
   );
 };
